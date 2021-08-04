@@ -95,7 +95,7 @@
 				</executions>
 				<configuration>
 					<rules>rules.txt</rules>
-					<sources>src/main/java/</sources>
+					<sources>src/main/java/mark/selenium</sources>
 					<output>mule-lintresults.json</output>
 					<dictionary>words.txt</dictionary>
 				</configuration>

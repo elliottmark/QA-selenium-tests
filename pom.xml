@@ -88,9 +88,11 @@
 					<execution>
 						<id>runit</id>
 						<phase>compile</phase>
+<!--
 						<goals>
 							<goal>analyze-mule</goal>
 						</goals>
+-->
 					</execution>
 				</executions>
 				<configuration>

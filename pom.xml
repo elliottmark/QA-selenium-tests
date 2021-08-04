@@ -79,7 +79,7 @@
 			</plugin>
 			
 			<!-- Below plug-in is used to run linter -->
-<!--
+
 			<plugin>
 				<groupId>org.nuisto</groupId>
 				<artifactId>mule-lint-maven-plugin</artifactId>
@@ -100,7 +100,7 @@
 					<dictionary>words.txt</dictionary>
 				</configuration>
 			</plugin>
--->
+
 		</plugins>
 	</build>
 </project>

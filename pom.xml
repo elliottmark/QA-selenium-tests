@@ -88,17 +88,15 @@
 					<execution>
 						<id>runit</id>
 						<phase>compile</phase>
-<!--
 						<goals>
 							<goal>analyze-mule</goal>
 						</goals>
--->
 					</execution>
 				</executions>
 				<configuration>
 					<rules>rules.txt</rules>
-					<sources>src/main/java/mark/selenium</sources>
-					<output>mule-lint-results.json</output>
+					<sources>src/main/java/</sources>
+					<output>mule-lintresults.json</output>
 					<dictionary>words.txt</dictionary>
 				</configuration>
 			</plugin>
